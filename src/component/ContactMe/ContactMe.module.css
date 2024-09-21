@@ -1,0 +1,7 @@
+.contact_me {
+    min-height: 350px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,27 @@
+.banner {
+    min-height: 98vh;
+    background-image: url(../../assets/images/banner.png) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 92px 70px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.banner .hello{
+    color: #ffe200;
+    font-family: 'Royce-Semibold';
+}
+.banner .name{
+    color: #fff;
+    font-family: 'Royce-Semibold';
+}
+.banner .job{
+    color: #fff;
+    font-family: 'Royce-Semibold';
+}
+.banner .sepideh{
+    border-radius: 50%;
+    border: 5px solid #320b82;
+    font-family: 'Royce-Semibold';
+}

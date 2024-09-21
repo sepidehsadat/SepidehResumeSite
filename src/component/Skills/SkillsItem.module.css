@@ -1,0 +1,31 @@
+.skills_item {
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+.skills_item .logo {
+    width: 24px;
+}
+
+.skills_item .parent_logo {
+    border: 3px solid #fff;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_item .header {
+    display: flex;
+    align-items: center;
+}
+
+.skills_item .title {
+    margin-left: 10px;
+}
+
+.skills_item .progress_bar {
+    margin-top: 5px;
+}

@@ -1,0 +1,16 @@
+.footer {
+    background-image: url(../../assets/images/Background.png) !important;
+    min-height: 95px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.footer .title {
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+}

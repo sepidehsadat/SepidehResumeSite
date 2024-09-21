@@ -1,0 +1,28 @@
+.contactme_item {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: inset 0px 2px 20px 0px #5317551c;
+    width: 300px;
+    border-color: #531755;
+    border-style: dashed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contactme_item .logo {
+    width: 52px;
+}
+
+.contactme_item .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.contactme_item .title {
+    font-weight: 700;
+}

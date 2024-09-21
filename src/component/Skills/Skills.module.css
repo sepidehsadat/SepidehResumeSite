@@ -1,0 +1,11 @@
+.skills {
+    background-color: #fff;
+    min-height: 350px;
+    padding: 30px 20px;
+}
+
+.skills .description {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}

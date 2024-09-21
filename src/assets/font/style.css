@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    src: url('./Roboto-Regular.ttf');
+} 
+@font-face {
+    font-family: 'Willdrain-Lake';
+    font-style: normal;
+    src: url('./Willdrain-Lake.ttf');
+} 
+@font-face {
+    font-family: 'Royce-Semibold';
+    font-style: normal;
+    src: url('./Royce-Semibold.otf');
+} 

@@ -1,0 +1,19 @@
+.project {
+    min-height: 350px;
+    padding: 30px 50px;
+    background-size: cover;
+    background-color: #F8F8F8;
+}
+
+.project .description {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+.project  .parent_slider{
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+

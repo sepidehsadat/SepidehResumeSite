@@ -1,0 +1,12 @@
+.worked {
+    background-image: url(../../assets/images/Background.png) !important;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+    background-size: cover;
+}
+.worked .parent_item{
+    display: flex;
+    gap: 20px;
+}
