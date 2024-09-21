@@ -47,7 +47,7 @@ export default class Skills extends Component {
             style={{ border: '3px solid #214ce5' }}
           />
           <SkillsItem
-            title={'SCSS/SASS'}
+            title={'CSS/SASS'}
             logo={SASS}
             progressBar={90}
             style={{ border: '3px solid #ce679a' }}
@@ -67,13 +67,13 @@ export default class Skills extends Component {
           <SkillsItem
             title={'ReactJs'}
             logo={ReactJs}
-            progressBar={70}
+            progressBar={80}
             style={{ border: '3px solid #61dbfb' }}
           />
           <SkillsItem
             title={'NextJs'}
             logo={NextJs}
-            progressBar={50}
+            progressBar={70}
             style={{ border: '3px solid #393939' }}
           />
           <SkillsItem
@@ -85,13 +85,13 @@ export default class Skills extends Component {
           <SkillsItem
             title={'AntDesign'}
             logo={Antd}
-            progressBar={60}
+            progressBar={70}
             style={{ border: '3px solid #0d6fff' }}
           />
           <SkillsItem
             title={'Tailwind'}
             logo={Tailwind}
-            progressBar={30}
+            progressBar={50}
             style={{ border: '3px solid #252a2f' }}
           />
           <SkillsItem
@@ -103,7 +103,7 @@ export default class Skills extends Component {
           <SkillsItem
             title={'Web3'}
             logo={Web3}
-            progressBar={30}
+            progressBar={50}
             style={{ border: '3px solid #000' }}
           />
           <SkillsItem

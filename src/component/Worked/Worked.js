@@ -15,7 +15,7 @@ export default class Worked extends Component {
                     <Title title="where I've Worked" style={{ color: "#fff" }} />
                     <div className={style.parent_item}>
                         <WorkedItem link={"Sefaresh.net"} linkAddress={"https://www.sefaresh.net"} date={"2017 - 2019"} description={"Front End Developer"} logo={Sefaresh} />
-                        <WorkedItem link={"NamiraSoft"} linkAddress={"https://www.namirasoft.ir"} date={"2020 - 2022"} description={"Reactjs Developer"} logo={Namira} />
+                        <WorkedItem link={"NamiraSoft"} linkAddress={"https://www.namirasoft.ir"} date={"2020 - 2024"} description={"Reactjs Developer"} logo={Namira} />
                     </div>
                 </div>
             </div>

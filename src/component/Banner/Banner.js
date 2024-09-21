@@ -11,8 +11,7 @@ export default class Banner extends Component {
                     <div className="col-md-6 d-flex align-items-center justify-content-center">
                         <div>
                             <h2 className={style.hello}>Hello I'm</h2>
-                            <h3 className={style.name}>Sepideh</h3>
-                            <h3 className={style.name}>Sadat</h3>
+							<h3 className={style.name}>Sepideh Sadat</h3>
                             <h3 className={style.name}>Mazloumi</h3>
                             <h5 className={style.job}>Web Developer</h5>
                         </div>

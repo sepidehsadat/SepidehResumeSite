@@ -27,7 +27,7 @@ export default class Slider extends Component {
         effect="coverflow"
         spaceBetween={50}
         slidesPerView={3}
-        autoplay={{delay: 5000,}}
+        autoplay={{delay: 17000,}}
         navigation
         pagination={{ clickable: true }}
         // scrollbar={{ draggable: true }}
