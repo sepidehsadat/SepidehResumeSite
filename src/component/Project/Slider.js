@@ -16,7 +16,6 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 //css
-import style from './Slider.module.css'
 
 export default class Slider extends Component {
   render() {
@@ -40,7 +39,7 @@ export default class Slider extends Component {
               <ProjectItem
                 title={item.title}
                 description={item.description}
-                image={item.image}
+                image={item.images[0]}
               />
             </SwiperSlide>
           )

@@ -1,13 +1,13 @@
 .aboutus {
-    min-height: 350px;
-    display: flex;
-    justify-content: center;
-    padding: 30px 20px;
+	min-height: 350px;
+	display: flex;
+	justify-content: center;
+	padding: 0px 20px 30px 20px;
 }
 
 .aboutus .description {
-    text-align: justify;
-    max-width: 400px;
-    margin: 0 auto;
-    font-family: cursive;
+	text-align: justify;
+	max-width: 400px;
+	margin: 0 auto;
+	font-family: cursive;
 }

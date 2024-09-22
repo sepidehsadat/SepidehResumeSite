@@ -1,0 +1,46 @@
+/* استایل کلی صفحه محصول */
+.product-details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+}
+
+/* استایل تصاویر محصول */
+.product-images {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.product-images img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+}
+
+/* استایل اطلاعات محصول */
+.product-info {
+	text-align: center;
+}
+
+.product-info h1 {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.product-info p {
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 15px;
+}
+
+.product-info h3 {
+	font-size: 20px;
+	color: #007bff;
+}

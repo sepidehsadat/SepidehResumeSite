@@ -7,51 +7,68 @@ import NamirasoftIR from '../assets/images/projects/namirasoft_ir.png'
 import GoldenBeach from '../assets/images/projects/golden_beach.PNG'
 import NftReportting from '../assets/images/projects/nft_reportting.PNG'
 
-export default class Data {
-  static getProjects() {
-    return [
-      {
-        title: 'Timify',
-        key: '0',
-        description: 'Employee performance report site',
-        image: Timify,
-      },
-      {
-        title: 'Nft Reporting Admin',
-        key: '1',
-        description: 'User Panel',
-        image: NftReportting,
-      },
-      {
-        title: 'BD',
-        key: '2',
-        description: 'NFT sales site',
-        image: bd,
-      },
-      {
-        title: 'namiraSoft.com',
-        key: '3',
-        description: 'Corporate Site',
-        image: NamirasoftCom,
-      },
-      {
-        title: 'NamiraSoft.ir',
-        key: '4',
-        description: 'Corporate Site',
-        image: NamirasoftIR,
-      },
-      {
-        title: 'Golden Beach',
-        key: '6',
-        description: 'Shopping Website',
-        image: GoldenBeach,
-      },
-      {
-        title: 'AdManager',
-        key: '7',
-        description: 'User Panel',
-        image: AdManager,
-      },
-    ]
-  }
+export default class Data
+{
+	static getProjects()
+	{
+		return [
+			{
+				title: 'Timify',
+				key: 0,
+				description: 'Employee performance report site',
+				images: [
+					Timify
+				],
+			},
+			{
+				title: 'Nft Reporting Admin',
+				key: 1,
+				description: 'User Panel',
+				images: [
+					NftReportting
+				],
+			},
+			{
+				title: 'BD',
+				key: 2,
+				description: 'NFT sales site',
+				image: bd,
+				images: [
+					Timify
+				],
+			},
+			{
+				title: 'namiraSoft.com',
+				key: 3,
+				description: 'Corporate Site',
+				images: [
+					NamirasoftCom
+				],
+			},
+			{
+				title: 'NamiraSoft.ir',
+				key: 4,
+				description: 'Corporate Site',
+				images: [
+					NamirasoftIR
+				],
+			},
+			{
+				title: 'Golden Beach',
+				key: 6,
+				description: 'Shopping Website',
+				images: [
+					GoldenBeach
+				],
+			},
+			{
+				title: 'AdManager',
+				key: 7,
+				description: 'User Panel',
+				images: [
+					AdManager
+				],
+			},
+		]
+	}
 }
