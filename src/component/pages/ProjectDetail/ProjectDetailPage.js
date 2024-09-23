@@ -2,24 +2,24 @@ import React from 'react';
 // import { useParams } from 'react-router-dom';
 import Data from '../../../api/Data'
 
-const ProductDetailPage = () =>
+const ProjectDetailPage = () =>
 {
 	// const { productId } = useParams < { productId} > ();
 
-	
-	const products = Data.getProjects()
 
-	const product = products.find(p => p.key == "1");
+	const projects = Data.getProjects()
 
-	if (!product)
+	const project = projects.find(p => p.key == "3");
+
+	if (!project)
 	{
 		return <div>محصولی یافت نشد</div>;
 	}
 
 	return (
-		<div>
-			<h1>{product.title}</h1>
-			<p>{product.description}</p>
+		<div className='container py-4'>
+			<h1>{project.title}</h1>
+			<p>{project.description}</p>
 			<div>
 				{/* {product.images.map((image, index) => (
 					<img key={index} src={image} alt={`Product Image ${index + 1}`} />
@@ -29,4 +29,4 @@ const ProductDetailPage = () =>
 	);
 };
 
-export default ProductDetailPage;
+export default ProjectDetailPage;

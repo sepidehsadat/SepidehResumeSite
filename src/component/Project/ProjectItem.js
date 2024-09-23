@@ -9,16 +9,16 @@ export default class ProjectItem extends Component
 	render()
 	{
 		return (
-				<Link to={Routes.ProductDetail }>
+			<Link to={`/project_detail/${this.props.item.key}`}>
 				<div className={style.project_item} >
 					<img
-						src={this.props.image}
+						src={this.props.item.images[0]}
 						className={style.image}
 						alt='image'
 					/>
 					<div className={style.parent_text}>
-						<span className={style.title}>{this.props.title}</span>
-						<p className={style.description}>{this.props.description}</p>
+						<span className={style.title}>{this.props.item.title}</span>
+						<p className={style.description}>{this.props.item.description}</p>
 					</div>
 				</div>
 			</Link>

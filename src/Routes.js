@@ -1,4 +1,4 @@
 export default class Routes {
     static Home = "/";
-    static ProductDetail = "/product_detail";
+	static ProjectDetail = "/project_detail/:productId";
 }

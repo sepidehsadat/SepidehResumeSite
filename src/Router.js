@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import RoutesConfig from "./Routes"; // تغییر نام از Routes به RoutesConfig
+import RoutesConfig from "./Routes"; 
 import SMLayout from "./component/SMLayout";
 import HomePage from "./component/pages/Home/HomePage";
-import ProductDetailPage from "./component/pages/ProductDetail/ProductDetailPage";
+import ProjectDetailPage from "./component/pages/ProjectDetail/ProjectDetailPage";
 
 const AppRouter = () =>
 {
@@ -19,10 +19,10 @@ const AppRouter = () =>
 					}
 				/>
 				<Route
-					path={RoutesConfig.ProductDetail}
+					path={RoutesConfig.ProjectDetail}
 					element={
 						<SMLayout>
-							<ProductDetailPage />
+							<ProjectDetailPage />
 						</SMLayout>
 					}
 				/>
