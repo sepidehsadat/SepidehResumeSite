@@ -9,7 +9,7 @@ export default class ProjectItem extends Component
 	render()
 	{
 		return (
-			<Link to={`/project_detail/${this.props.item.key}`}>
+			<Link className={style.link_card} to={`/project_detail/${this.props.item.key}`}>
 				<div className={style.project_item} >
 					<img
 						src={this.props.item.images[0]}
