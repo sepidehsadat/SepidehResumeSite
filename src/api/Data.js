@@ -1,12 +1,17 @@
-// import api from '../assets/images/api.png'
-import bd from '../assets/images/projects/bd.PNG'
 import AdManager from '../assets/images/projects/ad_manager.PNG'
-import NamirasoftCom from '../assets/images/projects/namirasoft_com.PNG'
 import NamirasoftIR from '../assets/images/projects/namirasoft_ir.png'
 import GoldenBeach from '../assets/images/projects/golden_beach.PNG'
 import NftReportting from '../assets/images/projects/nft_reportting.PNG'
 import Account_1 from '../assets/images/projects/account/account_1.JPG'
 import Timify_1 from '../assets/images/projects/timify/timify_1.JPG'
+import BD_1 from '../assets/images/projects/bd/bd_1.JPG'
+import BundleInternet_1 from '../assets/images/projects/bundle_internet/bundle_internet_1.JPG'
+import NamiraSoft_1 from '../assets/images/projects/namirasoft/namirasoft_1.JPG'
+import Playcash_1 from '../assets/images/projects/playcash/playcash_1.JPG'
+import StackLight_1 from '../assets/images/projects/stacklight/stacklight_1.JPG'
+import Codeverify_1 from '../assets/images/projects/codeverify/codeverify_1.JPG'
+import Passiglia_1 from '../assets/images/projects/passiglia/passiglia_1.JPG'
+import Chosenones_1 from '../assets/images/projects/chosenones/chosenones_1.JPG'
 export default class Data
 {
 	static getProjects()
@@ -21,6 +26,14 @@ export default class Data
 				],
 			},
 			{
+				title: 'StackLight',
+				key: 3,
+				description: 'StackLight',
+				images: [
+					StackLight_1
+				],
+			},
+			{
 				title: 'Timify',
 				key: 0,
 				description: 'Employee performance report site',
@@ -28,55 +41,67 @@ export default class Data
 					Timify_1
 				],
 			},
+	
+		
 			{
-				title: 'Nft Reporting Admin',
-				key: 1,
-				description: 'User Panel',
+				title: 'namiraSoft.com',
+				key: 3,
+				description: 'Corporate Site',
 				images: [
-					NftReportting
+					NamiraSoft_1
+				],
+			},
+			{
+				title: 'BundleInternet',
+				key: 2,
+				description: 'test',
+				images: [
+					BundleInternet_1
+				],
+			},
+			
+			{
+				title: 'codeverify_1',
+				key: 6,
+				description: 'codeverify_1',
+				images: [
+					Codeverify_1
 				],
 			},
 			{
 				title: 'BD',
 				key: 2,
 				description: 'NFT sales site',
-				image: bd,
 				images: [
-					Timify_1
+					BD_1
 				],
 			},
 			{
-				title: 'namiraSoft.com',
-				key: 3,
-				description: 'Corporate Site',
-				images: [
-					NamirasoftCom
-				],
-			},
-			{
-				title: 'NamiraSoft.ir',
-				key: 4,
-				description: 'Corporate Site',
-				images: [
-					NamirasoftIR
-				],
-			},
-			{
-				title: 'Golden Beach',
+				title: 'passiglia',
 				key: 6,
-				description: 'Shopping Website',
+				description: 'passiglia',
 				images: [
-					GoldenBeach
+					Passiglia_1
 				],
 			},
 			{
-				title: 'AdManager',
-				key: 7,
-				description: 'User Panel',
+				title: 'Chosenones_1',
+				key: 2,
+				description: 'test',
 				images: [
-					AdManager
+					Chosenones_1
 				],
 			},
+			
+			{
+				title: 'Playcash_1',
+				key: 3,
+				description: 'Playcash_1',
+				images: [
+					Playcash_1
+				],
+			},
+			
 		]
 	}
 }
