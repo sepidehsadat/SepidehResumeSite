@@ -18,13 +18,14 @@ const ProjectDetailPage = () =>
 
 	return (
 		<div className='container py-4'>
-			<h1>{project.title}</h1>
-			<p>{project.description}</p>
+			{/* <h1>{project.title}</h1>
+			<p>{project.description}</p> */}
 			<div>
 				{/* {product.images.map((image, index) => (
 					<img key={index} src={image} alt={`Product Image ${index + 1}`} />
 				))} */}
 			</div>
+			<h3>Coming Soon</h3>
 		</div>
 	);
 };
