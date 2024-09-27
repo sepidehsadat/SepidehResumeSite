@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SepidehResumeSite/static/css/main.15269397.css",
-    "main.js": "/SepidehResumeSite/static/js/main.5b48d865.js",
+    "main.js": "/SepidehResumeSite/static/js/main.f6e76935.js",
     "static/media/namirasoft_ir.png": "/SepidehResumeSite/static/media/namirasoft_ir.aabc0f311172a7f6cd41.png",
     "static/media/linkedin.png": "/SepidehResumeSite/static/media/linkedin.ee7155b3b118dbf6a012.png",
     "static/media/email.png": "/SepidehResumeSite/static/media/email.35b968e31ed7da782cf9.png",
@@ -44,10 +44,10 @@
     "static/media/navigation.less": "/SepidehResumeSite/static/media/navigation.8468f1a8bcf84345a96e.less",
     "index.html": "/SepidehResumeSite/index.html",
     "main.15269397.css.map": "/SepidehResumeSite/static/css/main.15269397.css.map",
-    "main.5b48d865.js.map": "/SepidehResumeSite/static/js/main.5b48d865.js.map"
+    "main.f6e76935.js.map": "/SepidehResumeSite/static/js/main.f6e76935.js.map"
   },
   "entrypoints": [
     "static/css/main.15269397.css",
-    "static/js/main.5b48d865.js"
+    "static/js/main.f6e76935.js"
   ]
 }
